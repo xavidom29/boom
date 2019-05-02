@@ -11,7 +11,7 @@ function countdown(nombre) {
 
       document.querySelectorAll('#contenedor')[0].innerHTML = '<img src="1.jpg">'
 
-      setTimeout(function(){ alert("B O O M"); }, 30);
+      setTimeout(function(){ alert("B O O M"); }, 60);
 
     }
 
