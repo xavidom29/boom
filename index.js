@@ -6,8 +6,13 @@ function countdown(nombre) {
   var myVar = setInterval(function(){
     document.querySelectorAll('#contenedor')[0].innerHTML = "<div>" + nombre -- + "</div>";
     if (nombre == -1) {
+
       clearInterval(myVar);
-      alert(" B O O M !!!! ")
+
+      document.querySelectorAll('#contenedor')[0].innerHTML = '<img src="1.jpg">'
+
+      setTimeout(function(){ alert("B O O M"); }, 30);
+
     }
 
   }, 1000);
